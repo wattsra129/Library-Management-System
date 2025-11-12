@@ -31,7 +31,7 @@ public class Member {
 
     // Show all borrowed books
     public void viewBorrowedBooks() {
-        System.out.println("\n--- Borrowed Books ---");
+        System.out.println("\nBorrowed Books: ");
         if (borrowedBooks.isEmpty()) {
             System.out.println("You have not borrowed any books.");
         } else {
